@@ -1,0 +1,64 @@
+{
+  "portfolio" : {
+    "projetos" : {  
+      "Categorias" : {
+        "Laboratoriais" : {
+          "Medidor" : {
+            "Descricao do projeto" : "“Montagem de um aparelho de medicao das variaveis climáticas.”",
+            "Integrantes do grupo" : "“Carlos, Gabriel e Julia”",
+            "Materiais utilizados" : "“Arduino, cabos, placa de circuito e sensores; chuva, umidade, luminosidade, pressao.”"
+          },
+          "Motor" : {
+            "Descricao do projeto" : "“Montagem de um dispositivo para uso do PWN para controle de um motor”",
+            "Integrantes do grupo" : "“Bruno, Carla e Felipe”",
+            "Materiais utilizados" : "“Módulo de acionamento PWN, Motor, Arduino...”"
+          },
+          "Robo" : {
+            "Descricao do projeto" : "Montagem de um robô, que é controlado remotamente por um grupo de 4 usuários",
+            "Integrantes do grupo" : "Luis,Pedro e Giovana",
+            "Materiais utilizados" : "Placas de MDF, cola quente, pequenos motores e arduino"
+          }
+        },
+        "Praticos" : {
+          "Modelagem" : {
+            "Descricao do projeto" : "“Construção de um modelo computacional para representar um modelo fisico”",
+            "Integrantes do grupo" : "“Bianca, Clara e Davi”",
+            "Materiais utilizados" : "“Power Point, python”"
+          },
+          "Mobilidade" : {
+            "Descricao do projeto" : "Desenvolvimento de projeto que solucione um problema de mobilidade urbana na cidade de São Paulo",
+            "Integrantes do grupo" : "Joao, Maria e Jose",
+            "Materiais utilizados" : "Cola quente, papelao e Power Point"
+          },
+          "Poster de matematica" : {
+            "Descricao do projeto" : "“Uma apresentacao sobre um tópico que não foi dado em aula”",
+            "Integrantes do grupo" : "“Fabio, Milena, Andressa”",
+            "Materiais utilizados" : "“Poster e Power Point”"
+          }
+        },
+        "Progamacao" : {
+          "Aplicativo" : {
+            "Descricao do projeto" : "“Criar um prototipo de aplicativo que resolva um problema real de um grupo especifico de usuarios” ",
+            "Integrantes do grupo" : "“Julliete, Samara, Rodrigo”",
+            "Materiais utilizados" : "“Notebook e ferramentas de pesquisa”"
+          },
+          "Dados" : {
+            "Descricao do projeto" : "“Analise completa de um certo banco de dados e objetivar algo a respeito ao mesmo”",
+            "Integrantes do grupo" : "“Caio, Juan, Eduarda”",
+            "Materiais utilizados" : "“Notebook”"
+          },
+          "Portfolio" : {
+            "Descricao do projeto" : "“Criacao de um portfolio online”",
+            "Integrantes do grupo" : "“Gabriel, Pedro, Lara”",
+            "Materiais utilizados" : "“Notebook”"
+          },
+          "Software" : {
+            "Descricao do projeto" : "Criacao de um software original com a linguagem de programação Python",
+            "Integrantes do grupo" : "Luis, Gabriela e Gabriel",
+            "Materiais utilizados" : "Notebook"
+          }
+        }
+      }    
+    }
+  }
+}

@@ -1,0 +1,32 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(to bottom,rgb(64 99 112), rgb(108 167 189), rgb(137 212 240));
+}
+
+section, p{
+  font-family: Poppins, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(47 95 112);
+}
+
+a{
+  font-family: Poppins, sans-serif;
+  color: rgb(47 95 112);
+}
+
+.preloader-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
