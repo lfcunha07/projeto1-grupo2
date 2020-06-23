@@ -8,64 +8,12 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<link rel="stylesheet" href="./Assets//css/materialize.min.css">
-		<script src="assets/js/codes.js"></script>
-		<script src="assets/js/index.js"></script>
+		<script src="Assets/js/codes.js"></script>
+		<script src="Assets/js/index.js"></script>
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 	</head>
 	<body>
 
-		<div class="preloader-background">
-            <div class="preloader-wrapper big active">
-                <div class="spinner-layer spinner-green">
-                    <div class="circle-clipper left">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="gap-patch">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="circle-clipper right">
-                        <div class="circle"></div>
-                    </div>
-                </div>
-
-                <div class="spinner-layer spinner-blue">
-                    <div class="circle-clipper left">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="gap-patch">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="circle-clipper right">
-                        <div class="circle"></div>
-                    </div>
-                </div>
-
-                <div class="spinner-layer spinner-yellow">
-                    <div class="circle-clipper left">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="gap-patch">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="circle-clipper right">
-                        <div class="circle"></div>
-                    </div>
-                </div>
-
-                <div class="spinner-layer spinner-red">
-                    <div class="circle-clipper left">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="gap-patch">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="circle-clipper right">
-                        <div class="circle"></div>
-                    </div>
-                </div>
-            </div>
-		</div>
-		
 		<div class="container">
 			<div class="row">
 				<header class="col l12 s12">
@@ -76,54 +24,26 @@
 				  <h1 class="center-align">Portfólio de projetos</h1>
 				  <h2 class="center-align">Autor: Jobson da Souza Carvalho</h2>
 				</section>
-
+				<div class="teste">
+				{{#each portfolio}}
 				<div class="col s12 l4">
 					<div class="card hoverable">
 					  <div class="card-image">
-						<img class="circle responsive-img" src="assets/img/lab.png" alt="Imagem ilustrativa de um logo laboratorial">
+						<img class="circle responsive-img" src="Assets/img/{{this.imagem}}" alt="{{@key}}">
 					  </div>
 					  <div class="card-content">
-						<p class="center-align">"Projetos os quais demandam a utilização de laboratorio e seus recursos para que possam ser concluídos, como solda, morsa de bancada, lixadeira de cinta, etc. "</p>
+						<p class="center-align">{{this.descricao}}</p>
 					  </div>
 					  <div class="card-action">
-						<a href="./Laboratoriais.html"> Laboratoriais </a>
+						<a href="categoria.html?key={{@key}}"> {{this.categoria}}</a>
 					  </div>
 					</div>
-				  </div>
-
-				  <div class="col s12 l4">
-					<div class="card hoverable">
-					  <div class="card-image">
-						<img class="circle responsive-img" src="assets/img/prat.png" alt="Imagem ilustrativa de um logo pratico">
-					  </div>
-					  <div class="card-content">
-						<p class="center-align"> Projetos que não requerem nenhum tipo de programação ou recursos específicos de laboratórios. Podem ser realizados com programas básicos, como Power Point ou Excel, e/ou materiais de escritório comuns, como cola quente e lixa.</p>
-					  </div>
-					  <div class="card-action">
-						<a href="pratico.html"> Práticos </a>
-					  </div>
-					</div>
-				  </div>
-
-				  <div class="col s12 l4">
-					<div class="card hoverable">
-					  <div class="card-image">
-						<img class="circle responsive-img" src="assets/img/soft.png"" alt="Imagem ilustrativa de um logo programacao">
-					  </div>
-					  <div class="card-content">
-						<p class="center-align">Projetos baseados no desenvolvimento de um software em linguagem de programação, como Python e C++.</p>
-					  </div>
-					  <div class="card-action">
-						<a href="Programacao.html"> Programação </a>
-					  </div>
-					</div>
-				  </div>
+				 </div>
+				 {{/each}}
+			 	</div>
 					  
 			</div>
 		</div>
 		
-		<script src="./Assets/js/jquery.min.js"></script>
-		<script src="./Assets/js/materialize.min.js"></script>
-		<script src="./Assets/js/scripts.js"></script>
 	</body>
 </html>
